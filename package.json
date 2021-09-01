@@ -13,9 +13,10 @@
     "react-dropzone": "^11.3.2",
     "react-is": "^17.0.2",
     "react-scripts": "4.0.3",
-    "react-tinacms-inline": "^0.40.0",
+    "react-tinacms-editor": "^0.51.8",
+    "react-tinacms-inline": "^0.52.5",
     "styled-components": "^5.2.3",
-    "tinacms": "^0.40.0",
+    "tinacms": "^0.55.2",
     "typescript": "^4.2.4",
     "yarn.lock": "^0.0.1-security"
   },
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "final-form": "^4.20.1"
   }
 }

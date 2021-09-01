@@ -1,12 +1,12 @@
 import React from 'react';
-import { useForm, usePlugin, useCMS } from 'tinacms';
 import { imagesBlock } from './components/Images';
 import { paragraphBlock } from './components/Paragraph';
 import { featureListBlock } from './components/FeatureList';
 
-import { InlineForm, InlineBlocks } from 'react-tinacms-inline';
 import { heroBlock } from './components/Hero';
 import data from './data/data.json';
+import {useForm, useCMS, usePlugin} from '@tinacms/toolkit';
+import {InlineBlocks, InlineForm} from 'react-tinacms-inline';
 
 export default function Home() {
   const cms = useCMS();
